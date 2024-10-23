@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leica</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+footer {
+padding: 1em;
+color: white;
+background-color: black;
+text-align: center;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" width="100" alt="Leica Logo">
+            </a>
+        </div>
+        <nav>
+            <a href="about.html">About Leica</a>
+            <a href="history.html">Leica History</a>
+            <a href="photographers.html">Photographers</a>
+            <a href="cameras.html">Cameras</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+
+    <center>
+        <video width="1250" autoplay muted>
+            <source src="video/leica.mp4" type="video/mp4">
+        </video>
+    </center>
+    <br><br><br><br>
+
+    <footer>&copy; 2024. All rights reserved.</footer>
+</body>
+</html>
+
+

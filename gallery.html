@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+footer {
+padding: 1em;
+color: white;
+background-color: black;
+text-align: center;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
+}
+
+        .logo img {
+            width: 100px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            margin-left: 20px;
+        }
+
+        .gallery {
+            margin-top: 100px;
+            max-width: 800px;
+            margin: 100px auto 0;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .gallery p {
+            font-size: 16px;
+            margin: 0 0 30px;
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" width="100">
+            </a>
+        </div>
+        <nav>
+            <a href="about.html">About Leica</a>
+            <a href="history.html">Leica History</a>
+            <a href="photographers.html">Photographers</a>
+            <a href="cameras.html">Cameras</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+
+    <center>
+        <h1>Gallery</h1>
+    </center>
+
+    <center>
+    <section class="gallery">
+        <img src="img/photo1.jpeg" alt="Wat Chalong">
+        <p>장소: Wat Chalong<br>사용 카메라: Leica M9</p>
+
+        <img src="img/photo2.jpeg" alt="Taipei 101">
+        <p>장소: Taipei 101<br>사용 카메라: Leica M9</p>
+
+        <img src="img/photo3.jpeg" alt="Patong Beach">
+        <p>장소: Patong Beach<br>사용 카메라: Leica M7 (필름)</p>
+
+        <img src="img/photo4.jpeg" alt="Unknown Location">
+        <p>장소: ?<br>사용 카메라: Leica M7 (필름)</p>
+    </section>
+</center>
+
+    <footer>&copy; 2024. All rights reserved.</footer>
+</body>
+</html>

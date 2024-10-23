@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Leica</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+footer {
+padding: 1em;
+color: white;
+background-color: black;
+text-align: center;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
+}
+
+table, tr, th, td {
+    border: solid 1px white;
+    border-collapse: collapse;
+    padding: 13px;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 80px;
+}
+
+.no-border {
+    border-left: none;
+    border-right: none;
+}
+
+span {
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" width="100" alt="Leica Logo">
+            </a>
+        </div>
+        <nav>
+            <a href="about.html">About Leica</a>
+            <a href="history.html">Leica History</a>
+            <a href="photographers.html">Photographers</a>
+            <a href="cameras.html">Cameras</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+
+    <center>
+        <h1>About Leica</h1>
+    </center>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>분야</td>
+                <td class="no-border" style="text-align:center;">
+                    <img src="img/camera.jpg" width="200"><br>
+                    카메라
+                </td>
+                <td class="no-border" style="text-align:center;">
+                    <img src="img/2.jpg" width="200"><br>
+                    광학
+                </td>
+            </tr>
+    
+            <tr>
+                <td>설립연도</td>
+                <td class="no-border" colspan="2">1849년</td>
+            </tr>
+    
+            <tr>
+                <td>지도</td>
+                <td class="no-border">
+                    <img src="img/com.jpg" width="200">
+                </td>
+                <td class="no-border">
+                    Am Leitz-Park 6, 35578 Wetzlar, Deutschland
+                    <a href="https://www.google.com/maps/place/Leica+Camera+AG/@50.5536735,8.4802025,15z/data=!4m6!3m5!1s0x47bdb5efbaaa03f1:0x1f91d24e44107053!8m2!3d50.5536735!4d8.4802025!16s%2Fg%2F11bxzmrfy1" target="_blank">
+                        <button class="map-button">View on Google Maps</button>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>개요</td>
+                <td class="no-border" colspan="2"><span>독일</span>의 <span>광학</span> 기기 및 <span>카메라</span> 제조사와 그 제품 브랜드. 에른스트 라이츠(Ernest Leitz) 사에서 만든 브랜드로, Leica라는 회사명 자체가 라이츠의 카메라, 즉 Leitz+Camera이다.
+
+                    카메라로 유명하지만 사실 광학 <span>현미경</span>이나 측량기 같은 실험기기 쪽에서도 굴지의 브랜드이다. 광학기기 외에도 현미경 절편 뜨거나 파리핀 틀 만드는 기계도 만든다.</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+
+    <footer>&copy; 2024. All rights reserved.</footer>
+</body>
+</html>
